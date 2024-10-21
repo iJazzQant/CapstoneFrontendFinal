@@ -78,13 +78,13 @@ const Navbar: React.FC = () => {
             ))}
             {isAuthenticated ? (
               <li className="nav__item">
-                <button onClick={handleLogout} className="nav__link nav__cta">
+                <button onClick={handleLogout} className="nav__link nav__cta" id='loginBtn'>
                   Mag-logout
                 </button>
               </li>
             ) : (
               <li className="nav__item">
-                <NavLink to="/user-type-selection" className="nav__link nav__cta" id='button'>
+                <NavLink to="/user-type-selection" className="nav__link nav__cta" id='loginBtn'>
                   Mag-login
                 </NavLink>
               </li>

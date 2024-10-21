@@ -5,12 +5,12 @@
 @tailwind utilities;
 
 @font-face { 
-  font-family: 'KG Miss Kindergarten';
-  src: url('assets/KGMissKindergarten.ttf');
+  font-family: 'PlayfairDisplay';
+  src: url('assets/PlayfairDisplay.woff2');
   }
   @font-face {
     font-family: 'BLKCHCRY';
-    src: url('assets/BLKCHCRY.TTF');
+    src: url('assets/BLKCHCRY.woff2');
     }
 
 
@@ -75,13 +75,13 @@ button:focus-visible {
  --text-color: hsl(0, 0%, 0%);
  --body-color: hsl(0, 0%, 95%);
  --body-font: "Montserrat", sans-serif;
- --second-font: "Bubblegum Sans", cursive;
+ --second-font: "PlayfairDisplay", sans-serif;
  --h2-font-size: 1.25rem;
  --small-font-size: 0.813rem;
  --font-semi-bold: 600;
  --z-tooltip: 10;
  --z-fixed: 100;
- --og-font:"BLKCHCRY", cursive;
+ --og-font: "BLKCHCRY", cursive;
 }
 
 body {
